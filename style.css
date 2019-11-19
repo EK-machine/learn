@@ -17,6 +17,13 @@ div.navigation {
 ul.navigation {
     list-style: none;
 }
+
+div.nav_list {
+    position: absolute;
+    min-height: 60px;
+    background-color: rgba(black, black, black, 0.8)
+}
+
 ul.navigation li {
 display: inline;
 color: white;
