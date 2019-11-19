@@ -16,13 +16,8 @@ div.navigation {
 ul.navigation {
     list-style: none;
 }
-li.one,
-li.two,
-li.three,
-li.four,
-li.five,
-li.six,
-li.seven,
-li.eight, {
-    display: inline;
+ul.navigation li {
+display: inline;
+color: white;
+margin-right: 5px;
 }
