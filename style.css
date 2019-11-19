@@ -12,6 +12,7 @@ div.navigation {
  background-image: url("background home.jpg");
  background-repeat: no-repeat;
  background-position: center;
+ min-height: 595px;
 }
 ul.navigation {
     list-style: none;
