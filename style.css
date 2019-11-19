@@ -8,6 +8,8 @@ div.main {
     background-image: url("background.png");
     margin: 0 auto 0 auto; 
 }
-div.background_home_img {
-    margin: 0 auto 0 auto;  
+div.navigation {
+ background-image: url("background home.jpg");
+ background-repeat: no-repeat;
+ background-position: center;
 }
