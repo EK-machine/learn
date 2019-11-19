@@ -13,3 +13,6 @@ div.navigation {
  background-repeat: no-repeat;
  background-position: center;
 }
+ul.navigation {
+    list-style: none;
+}
