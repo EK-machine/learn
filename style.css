@@ -1,3 +1,10 @@
 body {
+    background: black;
+}
+
+div.main {
+    width: 1400px;
+    height:13121px;
     background-image: url("background.png");
+    margin: 0 auto 0 auto; 
 }
