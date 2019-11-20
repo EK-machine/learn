@@ -18,6 +18,7 @@ div.navigation {
 
 svg {
     position: absolute;
+    z-index: 10;
 }
 
 div.nav_list {
@@ -29,10 +30,12 @@ text-align: center;
 background-color: rgba(0, 0, 0, 0.5);
 padding-top: 10px;
 vertical-align: middle;
+
 }
 
 ul.navigation {
 list-style: none;
+z-index: 2;
 }
 
 ul.navigation li {
