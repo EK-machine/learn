@@ -61,7 +61,14 @@ li.nav_link a {
    text-decoration: none; 
 }
 
-
+li.nav_link a:hover {
+    color: white;
+    text-decoration: none; 
+    padding-top: 17px;
+    border-top: 3px solid crimson;
+    padding-bottom:20px;
+    border-bottom: 3px solid crimson;
+ }
 
 
 
