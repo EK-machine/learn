@@ -1,4 +1,3 @@
-
 body {
     background: black;
 }
@@ -9,6 +8,7 @@ div.main {
     background-image: url("background.png");
     margin: 0 auto 0 auto; 
 }
+
 div.navigation {
  background-image: url("background home.jpg");
  background-repeat: no-repeat;
@@ -16,6 +16,9 @@ div.navigation {
  min-height: 595px;
 }
 
+svg {
+    position: absolute;
+}
 
 div.nav_list {
 min-height: 57px;
