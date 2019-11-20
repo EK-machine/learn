@@ -59,3 +59,9 @@ font-family: sans-serif;
 ul.navigation li:first-child {
     margin-left: 255px;
 }
+
+div.contact {
+    
+    font-size: 20px;
+    color:white;
+}
