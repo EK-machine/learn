@@ -25,11 +25,13 @@ svg.polyline {
     position: absolute;
 }
 
-p.logo {
+p.logo a{
     font-size: 28px;
     color: white;
+    padding-top: 25px;
     padding-left: 255px;
     position: absolute;
+    text-decoration: none;
 }
 
 div.nav_list {
@@ -70,14 +72,6 @@ li.nav_link a:hover {
     border-bottom: 3px solid crimson;
  }
 
-
-
 ul.navigation li:first-child {
     margin-left: 255px;
-}
-
-div.contact {
-    
-    font-size: 20px;
-    color:white;
 }
