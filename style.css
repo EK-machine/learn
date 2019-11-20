@@ -75,3 +75,59 @@ li.nav_link a:hover {
 ul.navigation li:first-child {
     margin-left: 255px;
 }
+
+div.wrap {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    color: white;
+    text-align: center;
+    background: #120103;
+}
+
+footer {
+    background: #2d3135;
+    box-shadow: 0 .5em 1em #111;
+    position: absolute;
+    top: 160px;
+    left: 0;
+    z-index: 900;
+    width: 100%;
+}
+
+footer label {
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 4.25em;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 0 1em;
+}
+
+footer label:hover {
+    background: crimson;
+}
+/* это завтра закомментишь, чтобы проверить 
+section.slide {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: 10;
+    padding: 8em 1em 0;
+    background-color: teal;
+    background-position: 50% 50%;
+    background-size: cover;
+    transition: left 0s .75s;
+}
+*/
+.slide_one {
+    background-image: url("tablet.jpg");
+}
+
+.slide_two {
+    background-image: url("tablet 2.jpg");
+}
