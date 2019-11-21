@@ -77,9 +77,9 @@ ul.navigation li:first-child {
 }
 
 span.slider_text {
-display: inline;
+display: block;
 text-align: center;
-vertical-align: bottom;
+margin-top: 220px;
 }
 
 h1 {
