@@ -76,69 +76,54 @@ ul.navigation li:first-child {
     margin-left: 255px;
 }
 
-#slider {
-width: 1140px;
-height: 200px;
-color: blanchedalmond;
-border: 1px solid red;
-position: relative;
-top: -380px;
-left: 130px;
-/*overflow: hidden;*/
+input.button_1 {
+    font-size: 30px;
+    color: rgb(184, 185, 184);
+    font-weight: bolder;
+    background-color: rgba(0,0,0,0);
+    border: none!important;
+    outline: none!important;
 }
 
-#slides {
-    background: white;
-    padding 5px;
-    box-shadow: 2px 2px 4px rgb(255, 187, 0), inset 1px 1px 0 #ddd;
-    border-radius: 10px;
+input.button_1:hover {
+    color: crimson;
 }
 
-.inner {
-    width: 200%;
+input.button_left_1 {
+    position: relative;
+    left: 130px;
+    top: -265px;
 }
 
-inner:after {
-    content: '';
-    display: block;
-    height: 0;
-    clear: both;
+input.button_right_1 {
+    position: relative;
+    left: 1210px;
+    top: -265px;
 }
 
-.page_slide {
-    float: left;
-    width: 50%;
-} 
-
-.page_slide img {
-    width: 1020px;
-    height: 155px;
+input.button_2 {
+    width: 145px;
+    height: 45px;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: white;
+    background-color: #333333;
+    border: none!important;
+    outline: none!important;
 }
 
-#overflow {
-    overflow: hidden;
+input.button_2:hover {
+    background-color: crimson;
 }
 
-#slider input {
-    display: none;
+input.button_left_2 {
+    position: relative;
+    left: 470px;
+    top: -225px;
 }
 
-#slide1:checked ~ #controls label:nth-child(2)
-#slide1:checked ~ #controls label:nth-child(1)
-
-width: 0;
-height: 0;
-border-top: 20px solid transparent;
-border-left: 20px solid #333;
-border-bottom: 20px solid transparent;
-float: right;
-margin-right: -30px;
-display: block;
-
-
-
-
-
-
-
-
+input.button_right_2 {
+    position: relative;
+    left: 490px;
+    top: -225px;
+}
