@@ -46,25 +46,29 @@
                </ul>
             </div>
          </div>
-         <div class="slider_box">
-            <div class="slide slide_1">текст</div>
-            <div class="slide slide_2">текст</div>
-         <!--
-            <input id="slide_1" type="radio" name="slides" checked>
-               <section class="slide slide_one">
-                  <h1><pre>why <span>creativia?</span></pre></h1>
-                  <p>bla-bla-bla, bla-bla-bla, bla-bla-bla, bla-bla-bla?</p>
-               </section>
-            <input id="slide_2" type="radio" name="slides">
-               <section class="slide slide_two">
-                  <h1><pre>because <span>creativia!</span></pre></h1>
-                  <p>na-na-na, tra-ta-ta, na-na-na, tra-ta-ta!</p>
-               </section>
-            <footer>
-               <label for="slide_1">FEATURES</label>
-               <label for="slide_2">FREE PSD</label>
-            </footer>
-         -->
+         <div id="slider">
+            <input type="radio" name="slider" id="slide1" checked="">
+            <input type="radio" name="slider" id="slide2">
+            <div id="slides">
+               <div id="overflow">
+                  <div class="inner">
+                     <div class="page_slide">
+                         <img src="slide1.png">
+                     </div>
+                     <div class="page_slide">
+                           <img src="slide2.png">
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div id="controls">
+               <label for="slide1"></label>
+               <label for="slide2"></label>
+            </div>
+            <div id="active">
+                  <label for="slide1"></label>
+                  <label for="slide2"></label>
+            </div>
          </div>
       </div>
       <div id="about_us" class="page page_about_us">
