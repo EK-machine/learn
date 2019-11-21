@@ -98,8 +98,47 @@ left: 130px;
     width: 200%;
 }
 
+inner:after {
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+}
+
 .page_slide {
     float: left;
     width: 50%;
 } 
+
+.page_slide img {
+    width: 1020px;
+    height: 155px;
+}
+
+#overflow {
+    overflow: hidden;
+}
+
+#slider input {
+    display: none;
+}
+
+#slide1:checked ~ #controls label:nth-child(2)
+#slide1:checked ~ #controls label:nth-child(1)
+
+width: 0;
+height: 0;
+border-top: 20px solid transparent;
+border-left: 20px solid #333;
+border-bottom: 20px solid transparent;
+float: right;
+margin-right: -30px;
+display: block;
+
+
+
+
+
+
+
 
