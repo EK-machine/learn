@@ -76,6 +76,19 @@ ul.navigation li:first-child {
     margin-left: 255px;
 }
 
+div.slider_box {
+width: 1140px;
+height: 200px;
+color: blanchedalmond;
+position: relative;
+top: -380px;
+left: 130px;
+border: 1px solid red;
+}
+
+
+
+/*
 div.wrap {
     width: 100%;
     height: 100%;
@@ -109,7 +122,7 @@ footer label {
 footer label:hover {
     background: crimson;
 }
-/* это завтра закомментишь, чтобы проверить 
+ 
 section.slide {
     height: 100%;
     width: 100%;
@@ -123,7 +136,7 @@ section.slide {
     background-size: cover;
     transition: left 0s .75s;
 }
-*/
+
 .slide_one {
     background-image: url("tablet.jpg");
 }
@@ -131,3 +144,4 @@ section.slide {
 .slide_two {
     background-image: url("tablet 2.jpg");
 }
+*/
