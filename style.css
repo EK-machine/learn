@@ -76,6 +76,19 @@ ul.navigation li:first-child {
     margin-left: 255px;
 }
 
+span.slider_text {
+text-align: center;
+margin-top: 300px;
+}
+
+h1 {
+    color: crimson;
+}
+
+.text {
+    color: white;
+}
+
 input.button_1 {
     font-size: 30px;
     color: rgb(184, 185, 184);
@@ -84,11 +97,7 @@ input.button_1 {
     border: none!important;
     outline: none!important;
 }
-/*
-input.button_1:hover {
-    color: crimson;
-}
-*/
+ 
 input.button_left_1 {
     position: relative;
     left: 130px;
@@ -111,11 +120,7 @@ input.button_2 {
     border: none!important;
     outline: none!important;
 }
-/*
-input.button_2:hover {
-    background-color: crimson;
-}
-*/
+ 
 input.button_left_2 {
     position: relative;
     left: 470px;
