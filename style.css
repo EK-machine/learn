@@ -84,11 +84,11 @@ input.button_1 {
     border: none!important;
     outline: none!important;
 }
-
+/*
 input.button_1:hover {
     color: crimson;
 }
-
+*/
 input.button_left_1 {
     position: relative;
     left: 130px;
@@ -111,11 +111,11 @@ input.button_2 {
     border: none!important;
     outline: none!important;
 }
-
+/*
 input.button_2:hover {
     background-color: crimson;
 }
-
+*/
 input.button_left_2 {
     position: relative;
     left: 470px;
@@ -126,4 +126,36 @@ input.button_right_2 {
     position: relative;
     left: 490px;
     top: -225px;
+}
+
+input.button_left_1:hover ~ input.button_left_2 {
+    background-color: crimson;
+}
+
+input.button_right_1:hover ~ input.button_right_2 {
+    background-color: crimson;
+}
+
+input.button_left_2:hover ~ input.button_left_1 {
+    color: crimson;
+} /* почему не работает это правило?*/
+
+input.button_right_2:hover ~ input.button_right_1 {
+    color: crimson;
+} /* почему не работает это правило?*/
+
+input.button_left_2:hover {
+    background-color: crimson;
+}
+
+input.button_right_2:hover {
+    background-color: crimson;
+}
+
+input.button_left_1:hover {
+    color: crimson;
+}
+
+input.button_right_1:hover {
+    color: crimson;
 }
