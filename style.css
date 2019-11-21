@@ -80,10 +80,19 @@ div.slider_box {
 width: 1140px;
 height: 200px;
 color: blanchedalmond;
+border: 1px solid red;
 position: relative;
 top: -380px;
 left: 130px;
-border: 1px solid red;
+overflow: hidden
+}
+
+div.slide {
+width: 1140px;
+height: 200px;
+position: absolute;
+top: 0;
+left: 0;
 }
 
 
