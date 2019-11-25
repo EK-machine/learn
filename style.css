@@ -134,34 +134,19 @@ h1 {
     top: -225px;
 }
 
-.upper-button-left:hover ~ .down-button-left {
+.upper-button-left:hover ~ .down-button-left,
+.upper-button-right:hover ~ .down-button-right,
+.down-button-left:hover, 
+.down-button-right:hover
+{
     background-color: crimson;
 }
 
-.upper-button-right:hover ~ .down-button-right {
-    background-color: crimson;
-}
 
-.down-button-left:hover ~ .upper-button-left {
-    color: crimson;
-} /* почему не работает это правило?*/
-
-.down-button-right:hover ~ .upper-button-right {
-    color: crimson;
-} /* почему не работает это правило?*/
-
-.down-button-left:hover {
-    background-color: crimson;
-}
-
-.down-button-right:hover {
-    background-color: crimson;
-}
-
-.upper-button-left:hover {
-    color: crimson;
-}
-
-.upper-button-right:hover {
+.down-button-left:hover ~ .upper-button-left, /* почему не работает это правило?*/
+.down-button-right:hover ~ .upper-button-right, /* почему не работает это правило?*/
+.upper-button-left:hover,
+.upper-button-right:hover
+ {
     color: crimson;
 }
