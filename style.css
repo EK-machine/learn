@@ -45,11 +45,11 @@ vertical-align: middle;
 
 }
 
-ul.navigation {
+ul.home-page-navigation {
 list-style: none;
 }
 
-ul.navigation li {
+ul.home-page-navigation li {
 display: inline;
 padding: 20, 0 ,23, 0;
 margin-right: 25px;
@@ -58,12 +58,12 @@ font-size: 14px;
 font-family: sans-serif;
 }
 
-li.nav-link a {
+li.home-page-nav-link a {
    color: inherit;
    text-decoration: none; 
 }
 
-li.nav-link a:hover {
+li.home-page-nav-link a:hover {
     color: white;
     text-decoration: none; 
     padding-top: 17px;
@@ -72,7 +72,7 @@ li.nav-link a:hover {
     border-bottom: 3px solid crimson;
  }
 
-ul.navigation li:first-child {
+ul.home-page-navigation li:first-child {
     margin-left: 255px;
 }
 
