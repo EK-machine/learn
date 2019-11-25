@@ -2,30 +2,30 @@ body {
     background: black;
 }
 
-div.main {
+.main {
     width: 1400px;
     height:13121px;
     background-image: url("background.png");
     margin: 0 auto 0 auto; 
 }
 
-div.navigation {
+.navigation {
  background-image: url("background home.jpg");
  background-repeat: no-repeat;
  background-position: center;
  min-height: 595px;
 }
 
-svg.polygon {
+.polygon {
     position: absolute;
     color: white;
 }
 
-svg.polyline {
+.polyline {
     position: absolute;
 }
 
-p.logo a{
+.logo a{
     font-size: 28px;
     color: white;
     padding-top: 25px;
@@ -34,7 +34,7 @@ p.logo a{
     text-decoration: none;
 }
 
-div.nav-list {
+.nav-list {
 height: 57px;
 width: 1190px;
 margin: 0 auto 0 auto;
@@ -45,11 +45,11 @@ vertical-align: middle;
 
 }
 
-ul.home-page-navigation {
+.home-page-navigation {
 list-style: none;
 }
 
-ul.home-page-navigation li {
+.home-page-navigation li {
 display: inline;
 padding: 20, 0 ,23, 0;
 margin-right: 25px;
@@ -58,12 +58,12 @@ font-size: 14px;
 font-family: sans-serif;
 }
 
-li.home-page-nav-link a {
+.home-page-nav-link a {
    color: inherit;
    text-decoration: none; 
 }
 
-li.home-page-nav-link a:hover {
+.home-page-nav-link a:hover {
     color: white;
     text-decoration: none; 
     padding-top: 17px;
@@ -72,11 +72,11 @@ li.home-page-nav-link a:hover {
     border-bottom: 3px solid crimson;
  }
 
-ul.home-page-navigation li:first-child {
+.home-page-navigation li:first-child {
     margin-left: 255px;
 }
 
-div.slider-text {
+.slider-text {
 display: block;
 text-align: center;
 margin-top: 220px;
@@ -90,7 +90,7 @@ h1 {
     color: white;
 }
 
-input.upper-button {
+.upper-button {
     font-size: 30px;
     color: rgb(184, 185, 184);
     font-weight: bolder;
@@ -99,19 +99,19 @@ input.upper-button {
     outline: none!important;
 }
  
-input.upper-button-left {
+.upper-button-left {
     position: relative;
     left: 130px;
     top: -265px;
 }
 
-input.upper-button-right {
+.upper-button-right {
     position: relative;
     left: 1210px;
     top: -265px;
 }
 
-input.down-button {
+.down-button {
     width: 145px;
     height: 45px;
     font-size: 15px;
@@ -122,46 +122,46 @@ input.down-button {
     outline: none!important;
 }
  
-input.down-button-left {
+.down-button-left {
     position: relative;
     left: 470px;
     top: -225px;
 }
 
-input.down-button-right {
+.down-button-right {
     position: relative;
     left: 490px;
     top: -225px;
 }
 
-input.upper-button-left:hover ~ input.down-button-left {
+.upper-button-left:hover ~ .down-button-left {
     background-color: crimson;
 }
 
-input.upper-button-right:hover ~ input.down-button-right {
+.upper-button-right:hover ~ .down-button-right {
     background-color: crimson;
 }
 
-input.down-button-left:hover ~ input.upper-button-left {
+.down-button-left:hover ~ .upper-button-left {
     color: crimson;
 } /* почему не работает это правило?*/
 
-input.down-button-right:hover ~ input.upper-button-right {
+.down-button-right:hover ~ .upper-button-right {
     color: crimson;
 } /* почему не работает это правило?*/
 
-input.down-button-left:hover {
+.down-button-left:hover {
     background-color: crimson;
 }
 
-input.down-button-right:hover {
+.down-button-right:hover {
     background-color: crimson;
 }
 
-input.upper-button-left:hover {
+.upper-button-left:hover {
     color: crimson;
 }
 
-input.upper-button-right:hover {
+.upper-button-right:hover {
     color: crimson;
 }
