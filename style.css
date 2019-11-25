@@ -76,7 +76,7 @@ ul.home-page-navigation li:first-child {
     margin-left: 255px;
 }
 
-span.slider-text {
+div.slider-text {
 display: block;
 text-align: center;
 margin-top: 220px;
