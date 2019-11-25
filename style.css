@@ -90,7 +90,7 @@ h1 {
     color: white;
 }
 
-input.button-1 {
+input.upper-button {
     font-size: 30px;
     color: rgb(184, 185, 184);
     font-weight: bolder;
@@ -99,19 +99,19 @@ input.button-1 {
     outline: none!important;
 }
  
-input.button-left-1 {
+input.upper-button-left {
     position: relative;
     left: 130px;
     top: -265px;
 }
 
-input.button-right-1 {
+input.upper-button-right {
     position: relative;
     left: 1210px;
     top: -265px;
 }
 
-input.button-2 {
+input.down-button {
     width: 145px;
     height: 45px;
     font-size: 15px;
@@ -122,46 +122,46 @@ input.button-2 {
     outline: none!important;
 }
  
-input.button-left-2 {
+input.down-button-left {
     position: relative;
     left: 470px;
     top: -225px;
 }
 
-input.button-right-2 {
+input.down-button-right {
     position: relative;
     left: 490px;
     top: -225px;
 }
 
-input.button-left-1:hover ~ input.button-left-2 {
+input.upper-button-left:hover ~ input.down-button-left {
     background-color: crimson;
 }
 
-input.button-right-1:hover ~ input.button-right-2 {
+input.upper-button-right:hover ~ input.down-button-right {
     background-color: crimson;
 }
 
-input.button-left-2:hover ~ input.button-left-1 {
+input.down-button-left:hover ~ input.upper-button-left {
     color: crimson;
 } /* почему не работает это правило?*/
 
-input.button-right-2:hover ~ input.button-right-1 {
+input.down-button-right:hover ~ input.upper-button-right {
     color: crimson;
 } /* почему не работает это правило?*/
 
-input.button-left-2:hover {
+input.down-button-left:hover {
     background-color: crimson;
 }
 
-input.button-right-2:hover {
+input.down-button-right:hover {
     background-color: crimson;
 }
 
-input.button-left-1:hover {
+input.upper-button-left:hover {
     color: crimson;
 }
 
-input.button-right-1:hover {
+input.upper-button-right:hover {
     color: crimson;
 }
