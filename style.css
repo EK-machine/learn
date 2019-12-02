@@ -60,24 +60,13 @@ font-size: 14px;
 font-family: sans-serif;
 }
 
-
 .home-page-nav-link a {
     display: inline-block;
+    position: relative;
     padding: 20px 0px 21px 0px;
    color: inherit;
    text-decoration: none;
 }
-
-/*
-.home-page-nav-link a:hover {
-    color: white;
-    text-decoration: none; 
-    padding-top: 17px;
-    border-top: 3px solid crimson;
-    padding-bottom:20px;
-    border-bottom: 3px solid crimson;
- }
-*/
 
 .home-page-navigation li:first-child {
     margin-left: 255px;
