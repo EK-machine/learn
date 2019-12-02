@@ -84,10 +84,10 @@ content: "";
 display: block;
 position: absolute;
 top: 0px;
-left: 25%;
+left: 50%;
 width: 25px;
 height: 54px;
-margin: 0 auto 0 auto;
+margin: 0 auto 0 -12.5px;
 border-bottom: 3px solid #FF0036;
 border-top: 3px solid #FF0036;
 }
