@@ -10,7 +10,7 @@ body {
 }
 
 .navigation {
- background-image: url("background home.jpg");
+ background-image: url("background home 1.jpg");
  background-repeat: no-repeat;
  background-position: center;
  min-height: 595px;
@@ -35,13 +35,18 @@ body {
 }
 
 .nav-list {
-height: 57px;
+height: 60px;
 width: 1190px;
 margin: 0 auto 0 auto;
-border-top: 3px solid grey;
 text-align: center;
 background-color: rgba(0, 0, 0, 0.7);
 vertical-align: middle;
+}
+
+.nav-list-bottons {
+border-top: 3px solid grey; 
+box-sizing: border-box;
+height: 60px;
 }
 
 .home-page-navigation {
@@ -49,6 +54,10 @@ margin: 0px;
 list-style: none;
 height: 57px;
 }
+
+
+#282928
+
 
 .home-page-nav-link {
 display: inline-block;
