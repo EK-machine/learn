@@ -10,7 +10,7 @@ body {
 }
 
 .navigation {
- background-image: url("background home 1.jpg");
+ background-image: url("background home.jpg");
  background-repeat: no-repeat;
  background-position: center;
  min-height: 595px;
@@ -62,7 +62,11 @@ color: rgb(184, 185, 184);
 font-size: 14px;
 font-family: sans-serif;
 }
-/*последнее*/
+
+.home-page-navigation li:first-child {
+    margin-left: 255px;
+}
+
 .home-page-nav-link a {
     display: inline-block;
     position: relative;
@@ -70,9 +74,22 @@ font-family: sans-serif;
    color: inherit;
    text-decoration: none;
 }
-/*последнее*/
-.home-page-navigation li:first-child {
-    margin-left: 255px;
+
+.home-page-nav-link a:hover {
+   color: white;
+}
+
+.home-page-nav-link a:hover::after {
+content: "";
+display: block;
+position: absolute;
+top: 0px;
+left: 25%;
+width: 25px;
+height: 54px;
+margin: 0 auto 0 auto;
+border-bottom: 3px solid #FF0036;
+border-top: 3px solid #FF0036;
 }
 
 .slider-text {
@@ -82,7 +99,7 @@ margin-top: 220px;
 }
 
 h1 {
-    color: crimson;
+    color: #FF0036;
 }
 
 .text {
@@ -97,7 +114,7 @@ h1 {
     border: none!important;
     outline: none!important;
 }
- 
+
 .upper-button-left {
     position: relative;
     left: 130px;
@@ -116,11 +133,11 @@ h1 {
     font-size: 15px;
     font-family: sans-serif;
     color: white;
-    background-color: #333333;
+    background-color: #292928;
     border: none!important;
     outline: none!important;
 }
- 
+
 .down-button-left {
     position: relative;
     left: 470px;
@@ -134,22 +151,19 @@ h1 {
 }
 
 .s-b-l:hover .upper-button-left {
-    background-color: crimson;
+    background-color: #FF0036;
 }
 
 .upper-button-left:hover ~ .down-button-left,
 .upper-button-right:hover ~ .down-button-right,
 .down-button-left:hover, 
-.down-button-right:hover
-{
-    background-color: crimson;
+.down-button-right:hover {
+    background-color: #FF0036;
 }
-
 
 .down-button-left:hover ~ .upper-button-left, 
 .down-button-right:hover ~ .upper-button-right, 
 .upper-button-left:hover,
-.upper-button-right:hover
- {
-    color: crimson;
+.upper-button-right:hover {
+    color: #FF0036;
 }
