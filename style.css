@@ -5,7 +5,7 @@ body {
 .main {
     width: 1400px;
     height:13121px;
-    background-image: url("background.png");
+    background: #000 url("background.png");
     margin: 0 auto 0 auto; 
 }
 
@@ -28,8 +28,8 @@ body {
 .logo a{
     font-size: 28px;
     color: white;
-    padding-top: 25px;
-    padding-left: 255px;
+    margin-top: 25px;
+    margin-left: 255px;
     position: absolute;
     text-decoration: none;
 }
@@ -107,12 +107,13 @@ h1 {
 }
 
 .upper-button {
-    font-size: 30px;
+    font-size: 35px;
     color: rgb(184, 185, 184);
     font-weight: bolder;
     background-color: rgba(0,0,0,0);
     border: none!important;
     outline: none!important;
+    cursor: pointer;
 }
 
 .upper-button-left {
@@ -136,6 +137,7 @@ h1 {
     background-color: #292928;
     border: none!important;
     outline: none!important;
+    cursor: pointer;
 }
 
 .down-button-left {
@@ -148,10 +150,6 @@ h1 {
     position: relative;
     left: 490px;
     top: -225px;
-}
-
-.s-b-l:hover .upper-button-left {
-    background-color: #FF0036;
 }
 
 .upper-button-left:hover ~ .down-button-left,
