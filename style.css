@@ -92,10 +92,36 @@ border-bottom: 3px solid #FF0036;
 border-top: 3px solid #FF0036;
 }
 
-.slider {
-    border: 1px solid white;
+.slider-container {
+    position: relative;
+    margin: auto;
+    width: 85%;
+    height: 535px;
 }
 
+.slider-centered {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.slider-text-container {
+    position: relative;
+    width: 100%;
+    border: 1px solid white;
+    box-sizing: border-box;
+}
+
+.slider-text-container h1,
+.slider-text-container p {
+
+}
+
+
+
+
+/*
 .slider-text {
 display: block;
 text-align: center;
@@ -168,4 +194,4 @@ h1 {
 .upper-button-left:hover,
 .upper-button-right:hover {
     color: #FF0036;
-}
+}*/
