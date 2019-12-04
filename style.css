@@ -109,16 +109,41 @@ border-top: 3px solid #FF0036;
 .slider-text-container {
     position: relative;
     width: 100%;
+}
+
+.slider-text-container h1 {
+    display: inline;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.slider-text-container p {
+text-align: center;
+
+}
+
+.slider-text-container h1 {
+    color: #FF0036;
+}
+
+.text {
+    color: white;
+}
+
+.slider-upper-buttons {
+    position: relative;
+    width: 100%;
     border: 1px solid white;
     box-sizing: border-box;
 }
 
-.slider-text-container h1,
-.slider-text-container p {
-
+.slider-down-buttons {
+    position: relative;
+    width: 100%;
+    border: 1px solid green;
+    box-sizing: border-box;
 }
-
-
 
 
 /*
@@ -128,13 +153,9 @@ text-align: center;
 margin-top: 220px;
 }
 
-h1 {
-    color: #FF0036;
-}
 
-.text {
-    color: white;
-}
+
+
 
 .upper-button {
     font-size: 35px;
