@@ -156,13 +156,11 @@ text-align: center;
 }
 
 .slider-down-buttons {
-    position: relative;
-    width: 100%;
-    border: 1px solid red;
-    box-sizing: border-box;
+    clear: both;
+    width: 26.47%;
+    margin: 0 auto;
 }
 
-/*
 .down-button {
     width: 145px;
     height: 45px;
@@ -177,26 +175,20 @@ text-align: center;
 
 .down-button-left {
     position: relative;
-    left: 470px;
-    top: -225px;
+    float: left;
 }
 
 .down-button-right {
     position: relative;
-    left: 490px;
-    top: -225px;
+    float: right;
 }
 
-.upper-button-left:hover ~ .down-button-left,
-.upper-button-right:hover ~ .down-button-right,
 .down-button-left:hover, 
 .down-button-right:hover {
     background-color: #FF0036;
 }
 
-.down-button-left:hover ~ .upper-button-left, 
-.down-button-right:hover ~ .upper-button-right, 
 .upper-button-left:hover,
 .upper-button-right:hover {
     color: #FF0036;
-}*/
+}
