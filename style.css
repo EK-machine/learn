@@ -4,7 +4,6 @@ body {
 
 .main {
     width: 1400px;
-    height:13121px;
     background: #000 url("background.png");
     margin: 0 auto 0 auto; 
 }
@@ -93,9 +92,11 @@ border-top: 3px solid #FF0036;
 }
 
 .slider-container {
-    position: relative;
-    margin: auto;
-    width: 85%;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 75%;
     height: 535px;
 }
 
