@@ -132,30 +132,8 @@ text-align: center;
 }
 
 .slider-upper-buttons {
-    position: relative;
     width: 100%;
-    border: 1px solid white;
-    box-sizing: border-box;
 }
-
-.slider-down-buttons {
-    position: relative;
-    width: 100%;
-    border: 1px solid green;
-    box-sizing: border-box;
-}
-
-
-/*
-.slider-text {
-display: block;
-text-align: center;
-margin-top: 220px;
-}
-
-
-
-
 
 .upper-button {
     font-size: 35px;
@@ -168,17 +146,23 @@ margin-top: 220px;
 }
 
 .upper-button-left {
-    position: relative;
-    left: 130px;
-    top: -265px;
+    float: left;
+    margin-left: 20px;
 }
 
 .upper-button-right {
-    position: relative;
-    left: 1210px;
-    top: -265px;
+    float: right;
+    margin-right: 20px;
 }
 
+.slider-down-buttons {
+    position: relative;
+    width: 100%;
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+
+/*
 .down-button {
     width: 145px;
     height: 45px;
