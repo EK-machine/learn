@@ -4,6 +4,7 @@ body {
 
 .main {
     width: 1400px;
+    height: 100vh;
     background: #000 url("background.png");
     margin: 0 auto 0 auto; 
 }
@@ -195,3 +196,4 @@ text-align: center;
 .upper-button-right:hover {
     color: #FF0036;
 }
+
