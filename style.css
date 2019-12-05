@@ -4,18 +4,17 @@ body {
 
 .main {
     width: 1400px;
-    height: 100vh;
     background: #000 url("background.png");
-    margin: 0 auto 0 auto; 
+    margin: 0 auto; 
 }
 
-.navigation {
+.page-home {
  background-image: url("background home.jpg");
  background-repeat: no-repeat;
  background-position: center;
  min-height: 595px;
 }
-
+/*
 .polygon {
     position: absolute;
     color: white;
@@ -196,4 +195,10 @@ text-align: center;
 .upper-button-right:hover {
     color: #FF0036;
 }
-
+*/
+.page-about-us {
+    width: 85%;
+    min-height: 1000px;
+    background-color: white;
+    margin: 0 auto;
+   }
