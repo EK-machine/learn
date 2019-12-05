@@ -4,6 +4,7 @@ body {
 
 .main {
     width: 1400px;
+    height: 10000px;
     background: #000 url("background.png");
     margin: 0 auto 0 auto; 
 }
@@ -132,30 +133,6 @@ text-align: center;
     color: white;
 }
 
-.slider-upper-buttons {
-    width: 100%;
-}
-
-.upper-button {
-    font-size: 35px;
-    color: rgb(184, 185, 184);
-    font-weight: bolder;
-    background-color: rgba(0,0,0,0);
-    border: none;
-    outline: none;
-    cursor: pointer;
-}
-
-.upper-button-left {
-    float: left;
-    margin-left: 20px;
-}
-
-.upper-button-right {
-    float: right;
-    margin-right: 20px;
-}
-
 .slider-down-buttons {
     clear: both;
     width: 26.47%;
@@ -181,6 +158,32 @@ text-align: center;
 
 .down-button-right {
     position: relative;
+    float: right;
+}
+
+.upper-buttons-container {
+    width: 72%;
+    position: absolute;
+    top: 41%;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.upper-button {
+    font-size: 35px;
+    color: rgb(184, 185, 184);
+    font-weight: bolder;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.upper-button-left {
+    float: left;
+}
+
+.upper-button-right {
     float: right;
 }
 
