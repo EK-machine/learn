@@ -4,7 +4,6 @@ body {
 
 .main {
     width: 1400px;
-    height: 10000px;
     background: #000 url("background.png");
     margin: 0 auto 0 auto; 
 }
