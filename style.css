@@ -128,7 +128,7 @@ text-align: center;
     color: #FF0036;
 }
 
-.text {
+.page-home-h1-part {
     color: white;
 }
 
@@ -202,3 +202,34 @@ text-align: center;
     background-color: white;
     margin: 0 auto;
    }
+
+  .about-us-header {
+      text-align: center;
+      padding-top: 85px;
+  }
+
+  .about-us-h1 {
+      margin: 0px;
+
+      font-size: 31px;
+      font-family: monospace;
+      white-space: pre;
+  }
+
+  .about-us-h1-black {
+    color: #222222;
+}
+
+  .about-us-h1-red {
+    color: #FF0036;
+}
+
+.about-us-header-text-black {
+    color: #494949;
+}
+
+.about-us-header-text-red {
+    color: #FF0036;
+}
+
+  
