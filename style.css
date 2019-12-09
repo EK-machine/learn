@@ -233,7 +233,6 @@ text-align: center;
 }
 
 .about-us-main {
-    border: 1px solid green;
     width: 84%;
     margin: 85px auto 0 auto;
 }
@@ -241,8 +240,31 @@ text-align: center;
 .about-us-main-left {
     width: 48.5%;
     float: left;
-    border: 1px solid red;
 }
+
+.about-us-main-left-text {e; 
+    margin-bottom: 35px;
+}
+
+.about-us-main-left-dropdown {
+    border: 1px solid black; 
+}
+
+.about-us-main-left-dropdown-list {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 10px;
+    background-color: #F7F7F7;
+    border: 1px solid rgb(216, 215, 215);
+    height: 40px;
+}
+
+.about-us-main-left-dropdown-list-point {
+    background-color: #FFFFFF;
+    border: 1px solid rgb(216, 215, 215);
+}
+
 
 .about-us-main-right {
     width: 48.5%;
