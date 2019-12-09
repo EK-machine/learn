@@ -232,4 +232,23 @@ text-align: center;
     color: #FF0036;
 }
 
+.about-us-main {
+    border: 1px solid green;
+    width: 84%;
+    margin: 85px auto 0 auto;
+}
+
+.about-us-main-left {
+    width: 48.5%;
+    float: left;
+    border: 1px solid red;
+}
+
+.about-us-main-right {
+    width: 48.5%;
+    float: right;
+    border: 1px solid orange;
+}
+
+
   
