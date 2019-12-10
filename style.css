@@ -246,62 +246,149 @@ text-align: center;
 }
 
 .about-us-main-dropdown-box {
-    border: 1px solid red;
+border: 1px solid green;
 }
 
-.about-us-main-dropdown-first {
-    border: 1px solid green;
-}
-
-.about-us-button-first-label {
-    border: 1px solid orange;
-    display: block;
-}
-
-
-
-/* 
-.about-us-main-left-dropdown-first {
+.about-us-main-dropdown-first,
+.about-us-main-dropdown-second,
+.about-us-main-dropdown-third {
     position: relative;
 }
 
-.about-us-button {
+.about-us-button-first {
+    background-color: #F7F7F7;
     width: 10.3%;
     height: 35px;
-    border: 1px solid rgb(199, 199, 199);
-    background-color: #F7F7F7;
-    color: #161616;
-    font-size: 15px;
+    box-shadow: none;
+    color: #262626;
+    font-size: 18px;
+    /*outline: none;*/
+    cursor: pointer;
+    border: 1px solid rgb(201, 201, 201);
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
 
-.a-u-b-f-whoiscreativia {
-    display: block;
-    box-sizing: border-box;
-    position: absolute;
-    top: 0;
-    left: 49px;
-    width: 89,7%;
-    height: 35px;
-    border: 1px solid rgb(199, 199, 199);
+.about-us-button-first-label {
+    display: inline-block;
     background-color: #F7F7F7;
-    color:#161616;
-    font-size: 15px;
-    font-weight: bold;
+    border: 1px solid rgb(201, 201, 201);
+    font-size: 18px;
+    color: #262626;
     font-family: monospace;
-    padding-left: 25px;
+    width: 90.1%;
+    height: 35px;
+    position: absolute;
+    top: 0px;
+    left: 10.3%;
+    box-sizing: border-box;
+    transform: translateX(-0.2%);
+    line-height: 35px;
+    vertical-align: center;
+    padding-left: 30px;
 }
 
 .about-us-button-first-content {
-    position: absolute;
-    box-sizing: border-box;
-    top: 34px;
-    margin: 0px;
-    color: #161616;
-    border: 1px solid rgb(199, 199, 199);
+    border: 1px solid rgb(201, 201, 201);
     padding: 13px;
-    font-size: 13px;
+    margin: 0;
+    color: #262626;
+    position: absolute;
+    top: 35px;
+    transform: translateY(-1px);
+    margin-bottom: 10px;
 }
- */
+
+.about-us-button-second {
+    background-color: #F7F7F7;
+    width: 10.3%;
+    height: 35px;
+    box-shadow: none;
+    color: #262626;
+    font-size: 18px;
+    /*outline: none;*/
+    cursor: pointer;
+    border: 1px solid rgb(201, 201, 201);
+    position: absolute;
+    top: 121px;
+    left: 0px;
+}
+
+.about-us-button-second-label {
+    display: inline-block;
+    background-color: #F7F7F7;
+    border: 1px solid rgb(201, 201, 201);
+    font-size: 18px;
+    color: #262626;
+    font-family: monospace;
+    width: 90.1%;
+    height: 35px;
+    position: absolute;
+    top: 121px;
+    left: 10.3%;
+    box-sizing: border-box;
+    transform: translateX(-0.2%);
+    line-height: 35px;
+    vertical-align: center;
+    padding-left: 30px;
+}
+
+.about-us-button-second-content {
+    border: 1px solid rgb(201, 201, 201);
+    padding: 13px;
+    margin: 0;
+    color: #262626;
+    position: absolute;
+    top: 156px;
+    transform: translateY(-1px);
+    margin-bottom: 10px;
+}
+
+.about-us-button-third {
+    background-color: #F7F7F7;
+    width: 10.3%;
+    height: 35px;
+    box-shadow: none;
+    color: #262626;
+    font-size: 18px;
+    /*outline: none;*/
+    cursor: pointer;
+    border: 1px solid rgb(201, 201, 201);
+    position: absolute;
+    top: 242px;
+    left: 0px;
+}
+
+.about-us-button-third-label {
+    display: inline-block;
+    background-color: #F7F7F7;
+    border: 1px solid rgb(201, 201, 201);
+    font-size: 18px;
+    color: #262626;
+    font-family: monospace;
+    width: 90.1%;
+    height: 35px;
+    position: absolute;
+    top: 242px;
+    left: 10.3%;
+    box-sizing: border-box;
+    transform: translateX(-0.2%);
+    line-height: 35px;
+    vertical-align: center;
+    padding-left: 30px;
+}
+
+.about-us-button-third-content {
+    border: 1px solid rgb(201, 201, 201);
+    padding: 13px;
+    margin: 0;
+    color: #262626;
+    position: absolute;
+    top: 277px;
+    transform: translateY(-1px);
+}
+
 .about-us-main-right {
     width: 48.5%;
     float: right;
