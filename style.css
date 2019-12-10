@@ -245,12 +245,28 @@ text-align: center;
     margin-bottom: 35px;
 }
 
+.about-us-main-dropdown-box {
+    border: 1px solid red;
+}
+
+.about-us-main-dropdown-first {
+    border: 1px solid green;
+}
+
+.about-us-button-first-label {
+    border: 1px solid orange;
+    display: block;
+}
+
+
+
+/* 
 .about-us-main-left-dropdown-first {
     position: relative;
 }
 
 .about-us-button {
-    width: 50px;
+    width: 10.3%;
     height: 35px;
     border: 1px solid rgb(199, 199, 199);
     background-color: #F7F7F7;
@@ -264,7 +280,7 @@ text-align: center;
     position: absolute;
     top: 0;
     left: 49px;
-    width: 435px;
+    width: 89,7%;
     height: 35px;
     border: 1px solid rgb(199, 199, 199);
     background-color: #F7F7F7;
@@ -285,7 +301,7 @@ text-align: center;
     padding: 13px;
     font-size: 13px;
 }
-
+ */
 .about-us-main-right {
     width: 48.5%;
     float: right;
