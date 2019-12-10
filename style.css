@@ -210,7 +210,6 @@ text-align: center;
 
   .about-us-h1 {
       margin: 0px;
-
       font-size: 31px;
       font-family: monospace;
       white-space: pre;
@@ -234,7 +233,7 @@ text-align: center;
 
 .about-us-main {
     width: 84%;
-    margin: 85px auto 0 auto;
+    margin: 85px auto 0px auto;
 }
 
 .about-us-main-left {
@@ -242,29 +241,50 @@ text-align: center;
     float: left;
 }
 
-.about-us-main-left-text {e; 
+.about-us-main-left-text {
     margin-bottom: 35px;
 }
 
-.about-us-main-left-dropdown {
-    border: 1px solid black; 
+.about-us-main-left-dropdown-first {
+    position: relative;
 }
 
-.about-us-main-left-dropdown-list {
-    list-style: none;
-    padding-left: 0;
-    margin-top: 0;
-    margin-bottom: 10px;
+.about-us-button {
+    width: 50px;
+    height: 35px;
+    border: 1px solid rgb(199, 199, 199);
     background-color: #F7F7F7;
-    border: 1px solid rgb(216, 215, 215);
-    height: 40px;
+    color: #161616;
+    font-size: 15px;
 }
 
-.about-us-main-left-dropdown-list-point {
-    background-color: #FFFFFF;
-    border: 1px solid rgb(216, 215, 215);
+.a-u-b-f-whoiscreativia {
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 49px;
+    width: 435px;
+    height: 35px;
+    border: 1px solid rgb(199, 199, 199);
+    background-color: #F7F7F7;
+    color:#161616;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: monospace;
+    padding-left: 25px;
 }
 
+.about-us-button-first-content {
+    position: absolute;
+    box-sizing: border-box;
+    top: 34px;
+    margin: 0px;
+    color: #161616;
+    border: 1px solid rgb(199, 199, 199);
+    padding: 13px;
+    font-size: 13px;
+}
 
 .about-us-main-right {
     width: 48.5%;
