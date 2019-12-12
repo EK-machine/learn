@@ -245,12 +245,69 @@ text-align: center;
     margin-bottom: 35px;
 }
 
-.about-us-main-dropdown-box {
-border: 1px solid green;
+.about-us-button {
+display: none;
 }
 
+.about-us-main-accordion {
+    margin-bottom: 7px;
+}
 
+.about-us-main-accordion:last-child {
+    margin-bottom: 0px;
+}
 
+.about-us-button-label {
+    display: inline-block;
+    background-color: #F7F7F7;
+    border: 1px solid rgb(201, 201, 201);
+    font-size: 18px;
+    color: #262626;
+    font-family: monospace;
+    font-weight: bold;
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    line-height: 40px;
+    vertical-align: center;
+}
+
+.about-us-button-label::before {
+    content: '\f055';
+    font-family: "Font Awesome 5 Free";
+    display: inline-block;
+    box-sizing: border-box;
+    width: 11.34%;
+    height: 40px;
+    font-size: 18px;
+    color: #262626;
+    border-right: 1px solid rgb(201, 201, 201);
+    transform: translateY(-1px);
+    margin-right: 29px;
+    text-align: center;
+}
+
+.about-us-button-content {
+    display: none;
+    border: 1px solid rgb(201, 201, 201);
+    padding: 13px;
+    margin: 0;
+    color: #262626;
+    transform: translateY(-1px);
+}
+
+.about-us-main-accordion-box input[type="radio"]:checked +.about-us-button-label {
+    color: #FF0036;
+}
+
+.about-us-main-accordion-box input[type="radio"]:checked +.about-us-button-label::before {
+    color: #FF0036;
+    content: '\f056';
+}
+
+.about-us-main-accordion-box input[type="radio"]:checked ~.about-us-button-content {
+    display: block;
+}
 
 .about-us-main-right {
     width: 48.5%;
