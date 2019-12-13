@@ -136,10 +136,11 @@ text-align: center;
     clear: both;
     width: 26.47%;
     margin: 0 auto;
+    border: 1px solid red;
 }
 
 .down-button {
-    width: 145px;
+    width: 46.03%;
     height: 45px;
     font-size: 15px;
     font-family: sans-serif;
