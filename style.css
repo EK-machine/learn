@@ -272,6 +272,11 @@ display: none;
     vertical-align: center;
 }
 
+.about-us-button-label:hover {
+    cursor: pointer;
+}
+
+
 .about-us-button-label::before {
     content: '\f055';
     font-family: "Font Awesome 5 Free";
