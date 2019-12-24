@@ -9,10 +9,10 @@ body {
 }
 
 .page-home {
- background-image: url("background home.jpg");
- background-repeat: no-repeat;
- background-position: center;
- min-height: 595px;
+    background-image: url("background home.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 595px;
 }
 
 .polygon {
@@ -34,31 +34,31 @@ body {
 }
 
 .nav-list {
-height: 10.08%;
-width: 85%;
-margin: 0 auto;
-text-align: center;
-background-color: rgba(0, 0, 0, 0.7);
-vertical-align: middle;
+    height: 10.08%;
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    vertical-align: middle;
 }
 
 .nav-list-bottons { 
-height: 100%;
+    height: 100%;
 }
 
 .home-page-navigation {
-margin: 0px;
-list-style: none;
-height: 100%;
+    margin: 0px;
+    list-style: none;
+    height: 100%;
 }
 
 .home-page-nav-link {
-display: inline-block;
-height: 100%;
-margin-right: 25px;
-color: rgb(184, 185, 184);
-font-size: 14px;
-font-family: sans-serif;
+    display: inline-block;
+    height: 100%;
+    margin-right: 25px;
+    color: rgb(184, 185, 184);
+    font-size: 14px;
+    font-family: sans-serif;
 }
 
 .home-page-navigation li:first-child {
@@ -70,25 +70,25 @@ font-family: sans-serif;
     position: relative;
     line-height: 60px;
     padding: 0px;
-   color: inherit;
-   text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
 
 .home-page-nav-link a:hover {
-   color: white;
+    color: white;
 }
 
 .home-page-nav-link a:hover::after {
-content: "";
-display: block;
-position: absolute;
-top: 0px;
-left: 50%;
-width: 25px;
-height: 54px;
-margin-left: -12px;
-border-bottom: 3px solid #FF0036;
-border-top: 3px solid #FF0036;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    width: 25px;
+    height: 54px;
+    margin-left: -12px;
+    border-bottom: 3px solid #FF0036;
+    border-top: 3px solid #FF0036;
 }
 
 .slider-container {
@@ -204,15 +204,15 @@ text-align: center;
    }
 
   .about-us-header {
-      text-align: center;
-      padding-top: 85px;
+    text-align: center;
+    padding-top: 85px;
   }
 
   .about-us-h1 {
-      margin: 0px;
-      font-size: 31px;
-      font-family: monospace;
-      white-space: pre;
+    margin: 0px;
+    font-size: 31px;
+    font-family: monospace;
+    white-space: pre;
   }
 
   .about-us-h1-black {
@@ -246,7 +246,7 @@ text-align: center;
 }
 
 .about-us-button {
-display: none;
+    display: none;
 }
 
 .about-us-main-accordion {
@@ -422,7 +422,6 @@ display: none;
     display: flex;
     margin: 0 auto;
     width: 82.77%;
-    Border: 1px solid red;
 }
 
 .about-us-footer-button-box {
@@ -434,24 +433,52 @@ display: none;
     display: none;
 }
 
-.about-us-footer-button-label::before {
-content: '\f004';
-font-family: "Font Awesome 5 Free";
-display: block;
-cursor: pointer;
-width: 75px;
-height: 65px;
-margin: 0 auto;
-background-color: green;
-clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
-color: #262626;
-font-size: 18px;
-text-align: center;
-line-height: 65px;
-font-weight: 900;
-box-sizing: border-box;
+.about-us-footer-button-outer {
+    display: block;
+    position: relative;
+    width: 75px;
+    height: 65px;
+    margin: 0 auto;
+    background-color: #262626;
+    clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
+    font-size: 18px;
+    text-align: center;
+    line-height: 65px;
+    margin-bottom: 30px;
 }
 
+.about-us-footer-button-inner {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 71px;
+    height: 61px;
+    box-sizing: border-box;
+    background-color: white;
+    clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
+    color: #262626;
+    font-size: 18px;
+    text-align: center;
+    line-height: 61px;
+    font-weight: 900;
+}
 
+.about-us-footer-button-label {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
 
+.about-us-footer-button-text {
+    display: block;
+    width: 220px;
+}
 
+.about-us-footer input[type="radio"]:checked ~.about-us-footer-button-outer,
+.about-us-footer input[type="radio"]:checked ~.about-us-footer-button-outer .about-us-footer-button-inner {
+    background-color: #FF0036;
+    color: white;
+}
