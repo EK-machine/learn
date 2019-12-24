@@ -340,7 +340,6 @@ display: none;
     display: block;
     width: 320px;
     clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
-    padding: 15px 0 15px 0;
     transition: all 1.5s;
     z-index: 1;
 }
@@ -402,3 +401,57 @@ display: none;
     padding: 0px;
     z-index: 3;
 }
+
+.about-us-fader {
+    clear: both;
+    display: block;
+    margin: 0 auto;
+    padding: 85px 0px 80px 0px;
+    width: 36.55%;
+}
+
+.about-us-fader-color {
+    display: block;
+    width: 100%;
+    height: 15px;
+    background-color: #262626;
+    clip-path: polygon(0 45%, 48% 45%, 49% 0%, 51% 0%, 52% 45%, 100% 45%, 100% 55%, 52% 55%, 51% 100%, 49% 100%, 48% 55%, 0 55%);
+}
+
+.about-us-footer {
+    display: flex;
+    margin: 0 auto;
+    width: 82.77%;
+    Border: 1px solid red;
+}
+
+.about-us-footer-button-box {
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.about-us-footer-button {
+    display: none;
+}
+
+.about-us-footer-button-label::before {
+content: '\f004';
+font-family: "Font Awesome 5 Free";
+display: block;
+cursor: pointer;
+width: 75px;
+height: 65px;
+margin: 0 auto;
+background-color: green;
+clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
+color: #262626;
+font-size: 18px;
+text-align: center;
+line-height: 65px;
+font-weight: 900;
+box-sizing: border-box;
+}
+
+
+
+
