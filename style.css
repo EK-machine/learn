@@ -92,11 +92,11 @@ body {
 }
 
 .slider-container {
-    position: absolute;
+    position: relative;
     top: 10%;
     left: 50%;
     transform: translateX(-50%);
-    width: 75%;
+    width: 85%;
     height: 535px;
 }
 
@@ -161,11 +161,12 @@ text-align: center;
 }
 
 .upper-buttons-container {
-    width: 72%;
+    width: 100%;
     position: absolute;
-    top: 41%;
+    top: 50%;
+    margin-top: -2%;
     left: 50%;
-    transform: translateX(-50%)
+    transform: translateX(-50%);
 }
 
 .upper-button {
@@ -180,10 +181,12 @@ text-align: center;
 
 .upper-button-left {
     float: left;
+    padding-left: 25px;
 }
 
 .upper-button-right {
     float: right;
+    padding-right: 25px;
 }
 
 .down-button-left:hover, 
