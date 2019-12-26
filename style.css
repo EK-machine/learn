@@ -206,7 +206,7 @@ text-align: center;
     margin: 0 auto;
    }
 
-  .about-us-header {
+  .about-us-upper-box {
     text-align: center;
     padding-top: 85px;
   }
@@ -226,11 +226,11 @@ text-align: center;
     color: #FF0036;
 }
 
-.about-us-header-text-black {
+.about-us-upper-text-black {
     color: #494949;
 }
 
-.about-us-header-text-red {
+.about-us-upper-text-red {
     color: #FF0036;
 }
 
@@ -421,7 +421,7 @@ text-align: center;
     clip-path: polygon(0 45%, 48% 45%, 49% 0%, 51% 0%, 52% 45%, 100% 45%, 100% 55%, 52% 55%, 51% 100%, 49% 100%, 48% 55%, 0 55%);
 }
 
-.about-us-footer {
+.about-us-bottom-box {
     display: flex;
     margin: 0 auto;
     width: 82.77%;
@@ -480,8 +480,8 @@ text-align: center;
     width: 220px;
 }
 
-.about-us-footer input[type="radio"]:checked ~.about-us-footer-button-outer,
-.about-us-footer input[type="radio"]:checked ~.about-us-footer-button-outer .about-us-footer-button-inner {
+.about-us-bottom-box input[type="radio"]:checked ~.about-us-footer-button-outer,
+.about-us-bottom-box input[type="radio"]:checked ~.about-us-footer-button-outer .about-us-footer-button-inner {
     background-color: #FF0036;
     color: white;
 }
