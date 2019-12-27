@@ -427,16 +427,16 @@ text-align: center;
     width: 82.77%;
 }
 
-.about-us-footer-button-box {
+.about-us-bottom-button-box {
     margin: 0 auto;
     cursor: pointer;
 }
 
-.about-us-footer-button {
+.about-us-bottom-button {
     display: none;
 }
 
-.about-us-footer-button-outer {
+.about-us-bottom-button-outer {
     display: block;
     position: relative;
     width: 75px;
@@ -450,7 +450,7 @@ text-align: center;
     margin-bottom: 30px;
 }
 
-.about-us-footer-button-inner {
+.about-us-bottom-button-inner {
     display: block;
     cursor: pointer;
     position: absolute;
@@ -468,20 +468,20 @@ text-align: center;
     font-weight: 900;
 }
 
-.about-us-footer-button-label {
+.about-us-bottom-button-label {
     display: block;
     margin: 0 auto;
     margin-bottom: 25px;
     cursor: pointer;
 }
 
-.about-us-footer-button-text {
+.about-us-bottom-button-text {
     display: block;
     width: 220px;
 }
 
-.about-us-bottom-box input[type="radio"]:checked ~.about-us-footer-button-outer,
-.about-us-bottom-box input[type="radio"]:checked ~.about-us-footer-button-outer .about-us-footer-button-inner {
+.about-us-bottom-box input[type="radio"]:checked ~.about-us-bottom-button-outer,
+.about-us-bottom-box input[type="radio"]:checked ~.about-us-bottom-button-outer .about-us-bottom-button-inner {
     background-color: #FF0036;
     color: white;
 }
