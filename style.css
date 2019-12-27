@@ -328,42 +328,9 @@ text-align: center;
 	opacity: 1;
 }
 
-/*Вариант 1
+/* вот отселева */
+/*Надо добавить тёмный цвет*/
 
-.about-us-main-right {
-    width: 48.5%;
-    float: right;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    box-sizing: border-box;
-}
-
-.about-us-main-img {
-    display: block;
-    width: 320px;
-    clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
-    transition: all 1.5s;
-    z-index: 1;
-}
-
-.about-us-main-img:hover {
-    width: 355px;
-    cursor: pointer;
-    padding: 0px;
-    z-index: 3;
-}
-
-.about-us-main-img:nth-child(2) {
-    transform: translateX(-75%);
-    z-index: 2;
-}
-
-.about-us-main-img:nth-child(3) {
-    transform: translateX(-149%);
-}*/
-
-/*Вариант 2*/
 
 .about-us-main-right {
     width: 48.5%;
@@ -373,37 +340,49 @@ text-align: center;
     position: relative;
 }
 
-.about-us-main-img {
+.about-us-main-img-container {
     display: block;
-    width: 320px;
-    clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
+    width: 65.97%;
+    background-color: white;
+    clip-path: polygon(73% 0, 100% 50%, 73% 100%, 27% 100%, 0 50%, 27% 0);
+    /*clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);*/
     padding: 15px 0 15px 0;
     position: absolute;
     transition: all 1.5s;
     z-index: 1;
 }
 
-.about-us-main-img:nth-child(1) {
+.about-us-main-img {
+    display: block;
+    width: 96.87%;
+    clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
+    position: relative;
+    left: 5px;    
+}
+
+.about-us-main-img-container:nth-child(1) {
     left: 0%;
     z-index: 2;
 }
 
-.about-us-main-img:nth-child(2) {
+.about-us-main-img-container:nth-child(2) {
     left: 50%;
     transform: translateX(-50%);
     z-index: 2;
 }
 
-.about-us-main-img:nth-child(3) {
+.about-us-main-img-container:nth-child(3) {
     right: 0%;
 }
 
-.about-us-main-img:hover {
-    width: 355px;
+.about-us-main-img-container:hover {
+    width: 73.2%;
+    clip-path: polygon(75.5% 0, 100% 50%, 75.5% 100%, 24.5% 100%, 0 50%, 24.5% 0);
     cursor: pointer;
     padding: 0px;
     z-index: 3;
 }
+/* вот доселева */
 
 .about-us-fader {
     clear: both;
