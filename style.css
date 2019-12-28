@@ -328,10 +328,6 @@ text-align: center;
 	opacity: 1;
 }
 
-/* вот отселева */
-/*Надо добавить тёмный цвет*/
-
-
 .about-us-main-right {
     width: 48.5%;
     float: right;
@@ -345,19 +341,27 @@ text-align: center;
     width: 65.97%;
     background-color: white;
     clip-path: polygon(73% 0, 100% 50%, 73% 100%, 27% 100%, 0 50%, 27% 0);
-    /*clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);*/
     padding: 15px 0 15px 0;
     position: absolute;
     transition: all 1.5s;
     z-index: 1;
 }
 
-.about-us-main-img {
+.about-us-main-img-background {
     display: block;
     width: 96.87%;
     clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
     position: relative;
-    left: 5px;    
+    left: 5px;
+    background: black;   
+}
+
+.about-us-main-img {
+    display: block;
+    width: 100%;
+    clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
+    left: 5px;
+    opacity: 0.4;    
 }
 
 .about-us-main-img-container:nth-child(1) {
@@ -382,7 +386,11 @@ text-align: center;
     padding: 0px;
     z-index: 3;
 }
-/* вот доселева */
+
+.about-us-main-img-container:hover .about-us-main-img{
+    opacity: 1;   
+}
+
 
 .about-us-fader {
     clear: both;
