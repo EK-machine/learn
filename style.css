@@ -395,7 +395,6 @@ text-align: center;
 .about-us-bottom-container {
     display: block;
     width: 100%;
-    border: 1px solid red;
     position: absolute;
     bottom: 0px;
     left: 50%;
@@ -405,7 +404,7 @@ text-align: center;
 .about-us-fader {
     display: block;
     width: 100%;
-    margin: 0 auto;
+    margin: 0 auto 87px auto;
     width: 36.55%;
 }
 
@@ -416,11 +415,13 @@ text-align: center;
     background-color: #262626;
     clip-path: polygon(0 45%, 48% 45%, 49% 0%, 51% 0%, 52% 45%, 100% 45%, 100% 55%, 52% 55%, 51% 100%, 49% 100%, 48% 55%, 0 55%);
 }
-/*
+
 .about-us-bottom-box {
     display: flex;
     margin: 0 auto;
     width: 82.77%;
+    border: 1px solid red;
+    margin-bottom: 85px;
 }
 
 .about-us-bottom-button-box {
@@ -481,4 +482,3 @@ text-align: center;
     background-color: #FF0036;
     color: white;
 }
-*/
