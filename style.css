@@ -204,6 +204,7 @@ text-align: center;
     min-height: 1000px;
     background-color: white;
     margin: 0 auto;
+    position: relative;
    }
 
   .about-us-upper-box {
@@ -391,12 +392,20 @@ text-align: center;
     opacity: 1;   
 }
 
+.about-us-bottom-container {
+    display: block;
+    width: 100%;
+    border: 1px solid red;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
 .about-us-fader {
-    clear: both;
     display: block;
+    width: 100%;
     margin: 0 auto;
-    padding: 85px 0px 80px 0px;
     width: 36.55%;
 }
 
@@ -407,7 +416,7 @@ text-align: center;
     background-color: #262626;
     clip-path: polygon(0 45%, 48% 45%, 49% 0%, 51% 0%, 52% 45%, 100% 45%, 100% 55%, 52% 55%, 51% 100%, 49% 100%, 48% 55%, 0 55%);
 }
-
+/*
 .about-us-bottom-box {
     display: flex;
     margin: 0 auto;
@@ -472,3 +481,4 @@ text-align: center;
     background-color: #FF0036;
     color: white;
 }
+*/
