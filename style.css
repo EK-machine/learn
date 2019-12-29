@@ -420,65 +420,83 @@ text-align: center;
     display: flex;
     margin: 0 auto;
     width: 82.77%;
-    border: 1px solid red;
     margin-bottom: 85px;
+    justify-content: space-between;
 }
 
 .about-us-bottom-button-box {
-    margin: 0 auto;
     cursor: pointer;
+    width: 22.33%;
+    position: relative;
 }
 
 .about-us-bottom-button {
-    display: none;
-}
-
-.about-us-bottom-button-outer {
-    display: block;
     position: relative;
-    width: 75px;
-    height: 65px;
-    margin: 0 auto;
-    background-color: #262626;
-    clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
-    font-size: 18px;
-    text-align: center;
-    line-height: 65px;
-    margin-bottom: 30px;
+    height: 64px;
+    width: 76px;
+    background-color: #0E0E0E;
+    margin-bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
-.about-us-bottom-button-inner {
-    display: block;
-    cursor: pointer;
+.about-us-bottom-button::before {
     position: absolute;
+    content: '';
+    font-family: "Font Awesome 5 Free";
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    line-height: 60px;
     top: 2px;
     left: 2px;
-    width: 71px;
-    height: 61px;
-    box-sizing: border-box;
+    height: calc(100% - 4px);
+    width: calc(100% - 4px);
+    color: #0E0E0E;
     background-color: white;
-    clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
-    color: #262626;
-    font-size: 18px;
-    text-align: center;
-    line-height: 61px;
-    font-weight: 900;
 }
 
-.about-us-bottom-button-label {
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 25px;
-    cursor: pointer;
+.about-us-bottom-button, .about-us-bottom-button::before {
+    clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
+}
+
+.about-us-bottom-button-one::before {
+    content: '\f004';
+}
+
+.about-us-bottom-button-two::before {
+    content: '\f14a';
+}
+
+.about-us-bottom-button-three::before {
+    content: '\f3fa';
+}
+
+.about-us-bottom-button-four::before {
+    content: '\f06d';
+}
+
+.about-us-bottom-button-box:hover .about-us-bottom-button,
+.about-us-bottom-button-box:hover .about-us-bottom-button::before {
+    background-color: #FF0036;
+    color: white;    
+}
+
+.about-us-bottom-button-label{
+    position: relative;
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    line-height: 60px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #0E0E0E;
 }
 
 .about-us-bottom-button-text {
-    display: block;
-    width: 220px;
-}
-
-.about-us-bottom-box input[type="radio"]:checked ~.about-us-bottom-button-outer,
-.about-us-bottom-box input[type="radio"]:checked ~.about-us-bottom-button-outer .about-us-bottom-button-inner {
-    background-color: #FF0036;
-    color: white;
+    font-size: 14px;
+    font-family: sans-serif;
+    text-align: center;
 }
