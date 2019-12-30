@@ -2,6 +2,10 @@ body {
     background: black;
 }
 
+:root {
+    --repeated-color: #FF0036;
+}
+
 .main {
     width: 1400px;
     background: #000 url("background.png");
@@ -87,8 +91,8 @@ body {
     width: 25px;
     height: 54px;
     margin-left: -12px;
-    border-bottom: 3px solid #FF0036;
-    border-top: 3px solid #FF0036;
+    border-bottom: 3px solid var(--repeated-color);
+    border-top: 3px solid var(--repeated-color);
 }
 
 .slider-container {
@@ -125,7 +129,7 @@ text-align: center;
 }
 
 .slider-text-container h1 {
-    color: #FF0036;
+    color: var(--repeated-color);
 }
 
 .page-home-h1-part {
@@ -191,17 +195,23 @@ text-align: center;
 
 .down-button-left:hover, 
 .down-button-right:hover {
-    background-color: #FF0036;
+    background-color: var(--repeated-color);
 }
 
 .upper-button-left:hover,
 .upper-button-right:hover {
-    color: #FF0036;
+    color: var(--repeated-color);
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
 }
 
 .page-about-us {
     width: 85%;
-    min-height: 1000px;
+    /*min-height: 1000px;*/
     background-color: white;
     margin: 0 auto;
     position: relative;
@@ -224,7 +234,7 @@ text-align: center;
 }
 
   .about-us-h1-red {
-    color: #FF0036;
+    color: var(--repeated-color);
 }
 
 .about-us-upper-text-black {
@@ -232,12 +242,13 @@ text-align: center;
 }
 
 .about-us-upper-text-red {
-    color: #FF0036;
+    color: var(--repeated-color);
 }
 
 .about-us-main {
-    width: 84%;
     margin: 85px auto 0px auto;
+    padding-left: 8%;
+    padding-right: 8%;
 }
 
 .about-us-main-left {
@@ -285,7 +296,7 @@ text-align: center;
     font-family: "Font Awesome 5 Free";
     display: inline-block;
     box-sizing: border-box;
-    width: 11.34%;
+    width: 11%;
     height: 40px;
     font-size: 18px;
     color: #262626;
@@ -303,7 +314,7 @@ text-align: center;
 	transform: translateY(-1px);
 	overflow: hidden;
 	opacity: 0;
-	transition: 1.5s ease-in-out;
+	transition: 200ms ease-in-out;
 }
 
 .about-us-button-content {
@@ -312,11 +323,11 @@ text-align: center;
 }
 
 .about-us-main-accordion-box input[type="radio"]:checked +.about-us-button-label {
-    color: #FF0036;
+    color: var(--repeated-color);
 }
 
 .about-us-main-accordion-box input[type="radio"]:checked +.about-us-button-label::before {
-    color: #FF0036;
+    color: var(--repeated-color);
     content: '\f056';
 }
 
@@ -339,12 +350,12 @@ text-align: center;
 
 .about-us-main-img-container {
     display: block;
-    width: 65.97%;
+    width: 65.97%; /*что тут доделать нужно???*/
     background-color: white;
     clip-path: polygon(73% 0, 100% 50%, 73% 100%, 27% 100%, 0 50%, 27% 0);
     padding: 15px 0 15px 0;
     position: absolute;
-    transition: all 1.5s;
+    transition: all 300ms;
     z-index: 1;
 }
 
@@ -393,12 +404,10 @@ text-align: center;
 }
 
 .about-us-bottom-container {
+    float: left;
     display: block;
     width: 100%;
-    position: absolute;
-    bottom: 0px;
-    left: 50%;
-    transform: translateX(-50%);
+    padding-top: 85px;
 }
 
 .about-us-fader {
@@ -478,7 +487,7 @@ text-align: center;
 
 .about-us-bottom-button-box:hover .about-us-bottom-button,
 .about-us-bottom-button-box:hover .about-us-bottom-button::before {
-    background-color: #FF0036;
+    background-color: var(--repeated-color);
     color: white;    
 }
 
