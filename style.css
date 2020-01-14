@@ -508,3 +508,201 @@ text-align: center;
     font-family: sans-serif;
     text-align: center;
 }
+
+.page-portfolio {
+    width: 85%;
+    background-color: #262626;
+    margin: 0 auto;
+   }
+
+.portfolio-menu_box {
+    padding-top: 75px;
+    text-align: center;
+}
+
+.portfolio-h1 {
+    margin: 0px;
+    margin-bottom: 20px;
+    font-size: 31px;
+    font-family: monospace;
+    color: white;
+}
+
+.portfolio-menu_button-container {
+    margin: 0 auto;
+    display: flex;
+    width: 29%;
+    justify-content: space-between;
+}
+
+.portfolio-menu_button {
+    color: rgb(184, 185, 184);
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-bottom: 85px;
+}
+
+.portfolio-menu_button:hover {
+    color: var(--repeated-color);
+    cursor: pointer;
+}
+
+.portfolio-main_box {
+    background-color: white;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio-main_button {
+    flex-basis: 21%;
+    position: relative;
+    background-size: 130px 115px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.portfolio-main_button::before {
+    content: 'design name';
+    font-family: sans-serif;
+    font-size: 10px;
+    text-align: center;
+    line-height: 3200%;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.portfolio-main_button::after {
+    content: '\f067';
+    font-family: "Font Awesome 5 Free";
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1400%;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+}
+
+.portfolio-main_button:hover::after,
+.portfolio-main_button:hover::before {
+    opacity: 1;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.portfolio-main_button:hover::before {
+    z-index: 2;
+}
+
+.portfolio-main_button:nth-child(1) {
+    background-color: #F39943;
+    flex-grow: 1;
+    background-image: url(dollar-bill-svgrepo-com.svg);
+}
+
+.portfolio-main_button:nth-child(2) {
+    background-color: rgb(21, 75, 102);
+    background-image: url(bank-svgrepo-com.svg);
+}
+
+.portfolio-main_button:nth-child(3) {
+    background-color: #EC5E85;
+    flex-grow: 1;
+    background-image: url(growth-money-svgrepo-com.svg);
+}
+
+.portfolio-main_button:nth-child(4) {
+    background-color: #F6F0E0;
+    background-image: url(credit-card-svgrepo-com.svg);
+}
+
+.portfolio-main_button:nth-child(5) {
+    background-color: #56CC82;
+    background-image: url(calculator-technology-svgrepo-com.svg);
+}
+
+.portfolio-main_button:nth-child(6) {
+    background-color: #95A5A5;
+    flex-grow: 1;
+    background-image: url(exchange-money-svgrepo-com.svg);
+}
+
+.portfolio-main_button:nth-child(7) {
+    background-color: #24B0C9;
+    background-image: url(banking-purse-svgrepo-com.svg);
+}
+
+.portfolio-main_button:nth-child(8) {
+    background-color: #FA8562;
+    flex-grow: 1;
+    background-image: url(check-svgrepo-com.svg);
+}
+
+.portfolio-figure_box  {
+    background-color: #262626;
+    padding-top: 90px;
+}
+
+.portfolio-figure_polygon {
+    position: relative;
+    width: 36.55%;
+    margin: 0 auto;
+}
+
+.portfolio-figure_polygon__color {
+    position: absolute;
+    top: -7px;
+    display: block;
+    background-color: var(--repeated-color);
+    width: 100%;
+    height: 15px;
+    clip-path: polygon(0 45%, 48% 45%, 49% 0%, 51% 0%, 52% 45%, 100% 45%, 100% 55%, 52% 55%, 51% 100%, 49% 100%, 48% 55%, 0 55%);
+}
+
+.portfolio-h2_box {
+    padding-top: 85px;
+    background-color: white;
+    text-align: center;
+}
+
+.portfolio-h2 {
+    margin: 0px;
+    margin-bottom: 20px;
+    font-size: 31px;
+    font-family: monospace;
+    color: #202020;
+}
+
+.portfolio-h2__red {
+    color: var(--repeated-color);
+}
+
+.portfolio-h2_text {
+    color: #828282;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.portfolio-h2_text__red {
+    color: var(--repeated-color);
+}
+
+.portfolio-second-main_box {
+    padding-top: 85px;
+    background-color: white;
+    height: 415px;
+}
