@@ -553,16 +553,16 @@ text-align: center;
     height: 600px;
     display: flex;
     flex-wrap: wrap;
+    justify-items: center;
 }
 
 .portfolio-main_button {
-    flex-basis: 21%;
-    position: relative;
-    background-size: 130px 115px;
-    background-position: center;
-    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 255px;
 }
-
+/*
 .portfolio-main_button::before {
     content: 'design name';
     font-family: sans-serif;
@@ -605,50 +605,67 @@ text-align: center;
 .portfolio-main_button:hover::before {
     z-index: 2;
 }
+*/
 
 .portfolio-main_button:nth-child(1) {
     background-color: #F39943;
     flex-grow: 1;
-    background-image: url(dollar-bill-svgrepo-com.svg);
 }
 
 .portfolio-main_button:nth-child(2) {
     background-color: rgb(21, 75, 102);
-    background-image: url(bank-svgrepo-com.svg);
 }
 
 .portfolio-main_button:nth-child(3) {
     background-color: #EC5E85;
     flex-grow: 1;
-    background-image: url(growth-money-svgrepo-com.svg);
 }
 
 .portfolio-main_button:nth-child(4) {
     background-color: #F6F0E0;
-    background-image: url(credit-card-svgrepo-com.svg);
 }
 
 .portfolio-main_button:nth-child(5) {
     background-color: #56CC82;
-    background-image: url(calculator-technology-svgrepo-com.svg);
 }
 
 .portfolio-main_button:nth-child(6) {
     background-color: #95A5A5;
     flex-grow: 1;
-    background-image: url(exchange-money-svgrepo-com.svg);
 }
 
 .portfolio-main_button:nth-child(7) {
     background-color: #24B0C9;
-    background-image: url(banking-purse-svgrepo-com.svg);
 }
 
 .portfolio-main_button:nth-child(8) {
     background-color: #FA8562;
     flex-grow: 1;
-    background-image: url(check-svgrepo-com.svg);
 }
+
+.portfolio-main_button__img {
+    width: 110px;
+    height: 130px;
+}
+
+.portfolio-main_button__covering {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: inherit;
+    height: 300px;
+    font-family: sans-serif;
+    font-size: 10px;
+    text-align: center;
+    /*line-height: 3200%; ещё тут*/
+    color: white;
+}
+
+/*.......
+.portfolio-main_button:hover ~ .portfolio-main_button__covering {
+    display: block;
+}
+
+*/
+
 
 
 .portfolio-figure_box  {
