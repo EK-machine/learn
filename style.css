@@ -643,7 +643,8 @@ text-align: center;
 
 .portfolio-figure_polygon__color {
     position: absolute;
-    top: -7px;
+    transform: translateY(-7px);
+    /*top: -7px;*/
     display: block;
     background-color: var(--repeated-color);
     width: 100%;
