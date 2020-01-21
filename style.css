@@ -349,13 +349,14 @@ text-align: center;
 
 .about-us-main-img-container {
     display: block;
-    width: 65.97%; /*что тут доделать нужно???*/
+    width: 320px;
     background-color: white;
     clip-path: polygon(73% 0, 100% 50%, 73% 100%, 27% 100%, 0 50%, 27% 0);
     padding: 15px 0 15px 0;
     position: absolute;
-    transition: all 300ms;
     z-index: 1;
+    transition-property: width, clip-path, padding, z-index;
+    transition-duration: 300ms, 300ms, 300ms, 300ms;
 }
 
 .about-us-main-img-background {
@@ -391,7 +392,7 @@ text-align: center;
 }
 
 .about-us-main-img-container:hover {
-    width: 73.2%;
+    width: 365px;
     clip-path: polygon(75.5% 0, 100% 50%, 75.5% 100%, 24.5% 100%, 0 50%, 24.5% 0);
     cursor: pointer;
     padding: 0px;
@@ -413,7 +414,7 @@ text-align: center;
     display: block;
     width: 100%;
     margin: 0 auto 87px auto;
-    width: 36.55%;
+    width: 435px;
 }
 
 .about-us-fader-color {
@@ -427,14 +428,14 @@ text-align: center;
 .about-us-bottom-box {
     display: flex;
     margin: 0 auto;
-    width: 82.77%;
+    width: 985px;
     margin-bottom: 85px;
     justify-content: space-between;
 }
 
 .about-us-bottom-button-box {
     cursor: pointer;
-    width: 22.33%;
+    width: 220px;
     position: relative;
 }
 
@@ -531,7 +532,7 @@ text-align: center;
 .portfolio-menu_button-container {
     margin: 0 auto;
     display: flex;
-    width: 29%;
+    width: 345px;
     justify-content: space-between;
 }
 
@@ -619,12 +620,14 @@ text-align: center;
     left: 0px;
     top: 0px;
     color: white;
-    transition: all 300ms;
     opacity: 0;
+    transition-property: opacity;
+    transition-duration: 300ms;
 }
 
 .portfolio-main_button__covering:hover {
     opacity: 1;
+    cursor: pointer;
 }
 
 .portfolio-figure_box  {
@@ -634,7 +637,7 @@ text-align: center;
 
 .portfolio-figure_polygon {
     position: relative;
-    width: 36.55%;
+    width: 435px;
     margin: 0 auto;
 }
 
