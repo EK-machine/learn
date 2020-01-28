@@ -7,39 +7,58 @@ body {
 }
 
 .main {
-    width: 1400px;
+    width: 92%;
     background: #000 url("background.png");
     margin: 0 auto; 
 }
 
 .page-home {
+    width: 85%;
+    margin: 0 auto;
     background-image: url("background home.jpg");
     background-repeat: no-repeat;
-    background-position: center;
     min-height: 595px;
+    position: relative;
 }
 
 .polygon {
     position: absolute;
+    top: 0%;
+    left: -8%;
     color: white;
 }
 
 .polyline {
     position: absolute;
+    top: 0%;
+    left: -8%;
+    display: block;
 }
 
+div.logo {
+    border: 1px solid red;
+    width: 18%;
+    position: absolute;
+    top: 4%;
+    left: 9%;
+}
+
+
 .logo a{
+
     font-size: 28px;
     color: white;
-    margin-top: 25px;
+    /*margin-top: 25px;
     margin-left: 255px;
     position: absolute;
+    top: 0%;
+    left: 20%;*/
     text-decoration: none;
 }
 
 .nav-list {
     height: 10%;
-    width: 85%;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.7);
