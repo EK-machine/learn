@@ -108,6 +108,7 @@ body {
 .slider-container {
     z-index: 1;
     background-image: url("background home.jpg");
+    background-position: center;
     background-repeat: no-repeat;
     position: relative;
     width: 100%;
