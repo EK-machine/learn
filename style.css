@@ -369,7 +369,7 @@ text-align: center;
     position: absolute;
     z-index: 1;
     transition-property: width, clip-path, padding, z-index;
-    transition-duration: 300s, 300ms, 300ms, 300ms;
+    transition-duration: 300ms, 300ms, 300ms, 300ms;
 }
 
 .about-us-main-img-background {
