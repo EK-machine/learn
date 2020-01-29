@@ -225,11 +225,13 @@ text-align: center;
     background-color: white;
     margin: 0 auto;
     position: relative;
+    padding-top: 85px;
    }
 
   .about-us-upper-box {
     text-align: center;
-    padding-top: 85px;
+    padding: 0% 8% 0% 8%;
+    margin-bottom: 85px;
   }
 
   .about-us-h1 {
@@ -256,9 +258,8 @@ text-align: center;
 }
 
 .about-us-main {
-    margin: 85px auto 0px auto;
-    padding-left: 8%;
-    padding-right: 8%;
+    margin: 0px auto;
+    padding: 0% 8% 0% 8%;
 }
 
 .about-us-main-left {
@@ -343,7 +344,7 @@ text-align: center;
 
 .about-us-main-accordion input[type="radio"]:checked ~div.about-us-transition {
     border: 1px solid rgb(201, 201, 201);
-	height: 75px;
+    min-height: 75px;
 	transform: translateY(-1px);
 	overflow: hidden;
 	box-sizing: border-box;
@@ -353,14 +354,14 @@ text-align: center;
 .about-us-main-right {
     width: 48.5%;
     float: right;
-    margin: 0 auto;
+    margin: 0 auto 85px auto;
     align-items: center;
     position: relative;
 }
 
 .about-us-main-img-container {
     display: block;
-    width: 320px;
+    width: 66%;
     background-color: white;
     clip-path: polygon(73% 0, 100% 50%, 73% 100%, 27% 100%, 0 50%, 27% 0);
     padding: 15px 0 15px 0;
@@ -403,7 +404,7 @@ text-align: center;
 }
 
 .about-us-main-img-container:hover {
-    width: 365px;
+    width: 76%;
     clip-path: polygon(75.5% 0, 100% 50%, 75.5% 100%, 24.5% 100%, 0 50%, 24.5% 0);
     cursor: pointer;
     padding: 0px;
@@ -414,11 +415,35 @@ text-align: center;
     opacity: 1;   
 }
 
+@media only screen and (max-width: 1150px) {
+    .about-us-main__query-testing {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    .about-us-main-accordion input[type="radio"]:checked ~div.about-us-transition {
+        border: 1px solid rgb(201, 201, 201);
+        min-height: 120px;
+        transform: translateY(-1px);
+        overflow: hidden;
+        box-sizing: border-box;
+        opacity: 1;
+    }
+}
+
+.about-us-main::after {
+    content: '';
+    display: table;
+    clear: both;
+    margin-bottom: 85px;
+}
+
 .about-us-bottom-container {
     float: left;
     display: block;
     width: 100%;
-    padding-top: 85px;
+    border: 1px solid orange;
 }
 
 .about-us-fader {
