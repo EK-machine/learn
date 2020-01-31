@@ -31,6 +31,7 @@ body {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.7);
     vertical-align: middle;
+    position: relative;
 }
 
 .nav-list_logo__border {
@@ -218,6 +219,36 @@ text-align: center;
     content: '';
     display: table;
     clear: both;
+}
+
+@media only screen and (max-width: 1000px) {
+    .nav-list_logo__border {
+        width: 90px;
+        height: 215px;
+        background-color: var(--repeated-color);
+        clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0 100%, 0% 0);
+        position: absolute;
+        left: 0%;
+        top: 0%;
+    }
+    .nav-list_logo {
+        width: 98%;
+        height: 98%;
+        background-color: #131313;
+        clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0 100%, 0% 0);
+        margin: 2% 2% 2% 0;
+    }
+    .nav-list_logo__link {
+        writing-mode: vertical-rl;
+        text-orientation: sideways-right;
+        padding-top: 55%;
+        font-size: 30px;
+    }
+    .down-button {
+        width: 100%;
+        font-size: 13px;
+        margin: 5px 0px 5px 0px;
+    }
 }
 
 .page-about-us {
