@@ -514,6 +514,7 @@ text-align: center;
 
 .about-us-bottom-button-box {
     cursor: pointer;
+    margin-bottom: 15px;
     width: 220px;
     position: relative;
     flex-grow: 1;
@@ -609,19 +610,29 @@ text-align: center;
     color: white;
 }
 
+@media only screen and (max-width: 310px) {
+    .portfolio-h1 {
+        font-size: 2vh;
+    }
+}
+
 .portfolio-menu_button-container {
     margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
     width: 345px;
     justify-content: space-between;
+    border: 1px solid orange;
 }
 
 .portfolio-menu_button {
     color: rgb(184, 185, 184);
+    width: auto;
     font-size: 14px;
     font-family: sans-serif;
     font-weight: bold;
     margin-bottom: 85px;
+    border: 1px solid yellow;
 }
 
 .portfolio-menu_button:hover {
