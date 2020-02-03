@@ -484,7 +484,6 @@ text-align: center;
 
 .about-us-fader {
     display: block;
-    width: 100%;
     margin: 0 auto 87px auto;
     width: 435px;
 }
@@ -497,10 +496,18 @@ text-align: center;
     clip-path: polygon(0 45%, 48% 45%, 49% 0%, 51% 0%, 52% 45%, 100% 45%, 100% 55%, 52% 55%, 51% 100%, 49% 100%, 48% 55%, 0 55%);
 }
 
+@media only screen and (max-width: 700px) {
+    .about-us-fader {
+        margin: 0 auto 87px auto;
+        width: 80%;
+    }
+}
+
 .about-us-bottom-box {
     display: flex;
+    flex-wrap: wrap;
     margin: 0 auto;
-    width: 985px;
+    width: 85%;
     margin-bottom: 85px;
     justify-content: space-between;
 }
@@ -509,6 +516,7 @@ text-align: center;
     cursor: pointer;
     width: 220px;
     position: relative;
+    flex-grow: 1;
 }
 
 .about-us-bottom-button {
