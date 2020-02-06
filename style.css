@@ -817,8 +817,170 @@ text-align: center;
 }
 
 .portfolio-second-main_box {
-    padding-top: 85px;
     background-color: white;
-    height: 415px;
+    display: grid;
+    padding: 85px 7% 85px 7%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 40px 40px 40px;
+    grid-column-gap: 30px;
+    grid-row-gap: 20px;
+    grid-auto-flow: column;
+    grid-auto-rows: 40px;
+}
+
+.portfolio-second-main_box div {
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    font-size-adjust: 14px;
+    color: #262626;
+    font-family: sans-serif;
+    line-height: 40px;
+}
+
+.portfolio-second-main__element:nth-child(1) {
+    grid-row: 2;
+    text-align: right;
+}
+
+.portfolio-second-main__element:nth-child(1)::after {
+    content: '\f14a';
+    font-family: "Font Awesome 5 Free";
+    display: inline-block;
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    margin: 0 15px;
+    color: #262626;
     text-align: center;
+    background-color: #E7E7E7;
+    line-height: 30px;
+    clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
+}
+
+.portfolio-second-main__element:nth-child(1):hover,
+.portfolio-second-main__element:nth-child(2):hover,
+.portfolio-second-main__element:nth-child(3):hover,
+.portfolio-second-main__element:nth-child(5):hover,
+.portfolio-second-main__element:nth-child(6):hover,
+.portfolio-second-main__element:nth-child(7):hover {
+    color: #FFFFFF;
+    background-color: var(--repeated-color);
+    cursor: pointer;
+}
+
+.portfolio-second-main__element:nth-child(2) {
+    grid-row: 3;
+    text-align: right;
+}
+
+.portfolio-second-main__element:nth-child(2)::after {
+    content: '\f14a';
+    font-family: "Font Awesome 5 Free";
+    display: inline-block;
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    margin: 0 15px;
+    color: #262626;
+    text-align: center;
+    background-color: #E7E7E7;
+    line-height: 30px;
+    clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
+}
+
+.portfolio-second-main__element:nth-child(3) {
+    grid-row: 4;
+    text-align: right;
+}
+
+.portfolio-second-main__element:nth-child(3)::after {
+    content: '\f14a';
+    font-family: "Font Awesome 5 Free";
+    display: inline-block;
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    margin: 0 15px;
+    color: #262626;
+    text-align: center;
+    background-color: #E7E7E7;
+    line-height: 30px;
+    clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
+}
+
+.portfolio-second-main__element:nth-child(4) {
+    grid-row-start: 1;
+    grid-row-end: 7;
+}
+
+.portfolio-second-main__element:nth-child(5) {
+    grid-row: 2;
+    text-align: left;
+}
+
+.portfolio-second-main__element:nth-child(5)::before {
+    content: '\f14a';
+    font-family: "Font Awesome 5 Free";
+    display: inline-block;
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    margin: 0 15px;
+    color: #262626;
+    text-align: center;
+    background-color: #E7E7E7;
+    line-height: 30px;
+    clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
+}
+
+.portfolio-second-main__element:nth-child(6) {
+    grid-row: 3;
+    text-align: left;
+}
+
+.portfolio-second-main__element:nth-child(6)::before {
+    content: '\f14a';
+    font-family: "Font Awesome 5 Free";
+    display: inline-block;
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    margin: 0 15px;
+    color: #262626;
+    text-align: center;
+    background-color: #E7E7E7;
+    line-height: 30px;
+    clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
+}
+
+.portfolio-second-main__element:nth-child(7) {
+    grid-row: 4;
+    text-align: left;
+}
+
+.portfolio-second-main__element:nth-child(7)::before {
+    content: '\f14a'/*f00c*/;
+    font-family: "Font Awesome 5 Free";
+    display: inline-block;
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    margin: 0 15px;
+    color: #262626;
+    text-align: center;
+    background-color: #E7E7E7;
+    line-height: 30px;
+    clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
+}
+
+.portfolio-second-main__element:nth-child(8) {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row: 7;
 }
