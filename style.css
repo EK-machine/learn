@@ -828,7 +828,7 @@ text-align: center;
     grid-auto-rows: 40px;
 }
 
-.portfolio-second-main_box div {
+.portfolio-second-main_box > div {
     box-sizing: border-box;
     font-size: 14px;
     color: #262626;
@@ -1052,8 +1052,8 @@ text-align: center;
     border: none;
     outline: none;
     text-align: center;
-    line-height: 30px/*????*/;
-    color: white/*????*/;
+    line-height: 45px;
+    color: white;
 }
 
 .under_tablet_button:hover {
@@ -1133,8 +1133,8 @@ text-align: center;
         margin: 5% auto 3% auto;
         width: 100px;
         height: 45px;
-        font-size: 50px;
-        line-height: 30px/*????*/;
+        font-size: 1vw;
+        line-height: 45px;
         color: white;
     }
 }
